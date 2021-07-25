@@ -1,0 +1,333 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+
+/* body{
+    
+} */
+
+/* h1{} */
+
+/* h2{} */
+
+/* h3{} */
+
+/* h4{} */
+
+/* h5{} */
+
+/* h6{} */
+
+hr{
+    width: 50px;
+    height: 2px !important;
+    background-color:indianred;
+    
+}
+.star i{
+    font-size: 0.8rem;
+    color: gold;
+}
+.star{
+    padding: 10px 0px;
+}
+button{
+    font-size: 2rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color:rgb(245, 212, 170);
+    color: black;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color:rgb(252, 226, 192);
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    background-color: rgb(214, 124, 124);
+    height: 80px;
+    box-shadow: 0 5px 10px rgba(0, 0,55, 0.7);    
+}
+
+    
+.navbar-light .navbar-nav .nav-link {
+    padding: 0px 0px;
+  transition: 0.3s ease;
+}
+.navbar-light{
+    background-color: rgb(222, 184, 135);
+}
+
+.navbar-light .navbar-nav .nav-item:hover{
+    color: rgb(240, 243, 194);
+}
+
+.change:hover{
+    color: rgb(196, 163, 58) !important ;
+
+}
+
+.logo{
+width: 15rem;
+height: 3rem;
+}
+
+.fab{
+    font-size: 25px;
+}
+
+.navbar i{
+    font-size: 1.3em;
+    padding: 0 8px;
+}
+
+#home span{
+    color: rgb(255, 151, 113);
+}
+
+#home{
+    color: rgb(177, 177, 177);
+    background-image: url(/Content/Images/bg-trial\ 2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 10px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Mobile Nav */
+#bar{
+  font-size: 1.5rem;
+  padding: 5px 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+  color: chocolate;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+#bar:hover,
+#bar.active{
+    color: rgb(247, 247, 247);
+}
+@media only screen and (max-width:991px){
+    body > nav > div > button:hover,
+    body > nav > div > button:focus{
+        background-color: rgb(253, 217, 127);
+    }   
+    
+    #navbarSupportedContent > ul {
+
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: 10px 20px;
+        color: black;
+        font-weight: 600;
+    }
+    #navbarSupportedContent{
+        background-color: wheat;
+    }
+}
+
+#new img{
+    padding-top: 10px;
+    width: 100%;
+    height: 550px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#new .one .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+#new .one :hover{
+    cursor: pointer;
+    background-color: rgb(229, 243, 203,0.5);
+}
+#new h2{
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#new .one .details button{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background: none;
+    border-bottom: 1px solid white;
+    transform: translateY(70px);
+    transition: 00.3s ease;
+}
+
+#new .one:nth-child(n) .details button:hover{
+    color: thistle;
+    border-bottom:1px solid thistle;
+}
+
+#new .one:nth-child(n) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#specials h3{
+    color:dimgray;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* ///// Products */
+
+.row .product img{
+    height: 500px;
+    width: 500px;
+    transition: 00.3s all;
+}
+
+.product{
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+.product:hover img{
+    opacity: 0.8;
+}
+.product .buy-btn{
+    border-radius: 0.5rem;
+    background-color: rgb(177, 216, 255);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#banner{
+    color: white;
+    background-image: url("/Content/Images/banner\ trial\ -1.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#banner h4 {
+   color: antiquewhite;
+}
+
+#banner button{
+    background-color: rgb(255, 140, 98);
+}
+
+/* Footer */
+body > footer > div.copyright > div > div.icons.col-lg-4.col-md-6.col-12{
+    padding-left: 5rem;
+}
+
+footer{
+    background-color: #222222;
+    height: 25.5rem;
+}
+
+footer h5{
+    color: white;
+    font-weight: 700;
+}
+
+footer h6{
+    color: white;
+    font-weight: 600s;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+footer li a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #999;
+}
+footer li a:hover{
+    color: thistle;
+}
+
+footer p{
+    color: #999;
+}
+
+footer .copyright a{
+    color: black;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    transition: 00.3s ease;
+    margin: 0 5px;
+    padding-top: 0.3rem;
+}
+
+footer .copyright a:hover{
+    color: white;
+    background-color: coral;
+}
+
+#footicon{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+
+ }
+
+ #footicon a i{
+     padding: 0.5rem;
+ }
+
+ #facebook img{
+     border-radius: 0.5rem;
+ }
